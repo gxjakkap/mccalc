@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "mccalc",
+  "version": "${version}",
+
+  "name": "McCalc",
+  "description": "Simple Calculator command right in Minecraft.",
+  "authors": [
+    "gxjakkap"
+  ],
+  "contact": {
+    "homepage": "https://github.com/gxjakkap/mccalc",
+    "sources": "https://github.com/gxjakkap/mccalc"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mccalc/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.guntxjakka.mccalc.McCalc"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
